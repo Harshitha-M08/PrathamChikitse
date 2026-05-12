@@ -1,7 +1,241 @@
 # 🩺 Pratham Chikitse — Emergency First Aid Android App
 
-A bilingual (English + Kannada) AI-powered Android first-aid guide app designed for rural Karnataka.  
-The app provides instant emergency guidance, offline first-aid instructions, AI assistance, and nearby hospital access.
+A bilingual (English + Kannada) AI-powered Android first-aid guide app designed for rural Karnataka.
+
+The app provides instant emergency guidance, offline first-aid instructions, AI assistance, emergency helpline access, and nearby hospital support during critical situations.
+
+---
+
+## 🌟 Why Pratham Chikitse?
+
+Pratham Chikitse is designed to help people in rural and low-connectivity areas access immediate first-aid guidance during emergencies.
+
+The app focuses on:
+- Offline accessibility
+- Fast emergency response guidance
+- Multilingual support
+- AI-powered medical assistance
+- Easy hospital access during emergencies
+
+---
+
+# ✨ Features
+
+## 🚨 20 Emergency Cards
+Step-by-step first-aid guidance for:
+- Snake bite
+- Choking
+- Cardiac arrest
+- Burns
+- Fractures
+- Asthma attack
+- Allergic reactions
+- Diabetic emergency
+- And more
+
+---
+
+## 🇮🇳 Bilingual Support
+- English
+- Kannada
+- Live language toggle
+
+---
+
+## 🤖 GROQ AI Assistant
+Ask first-aid questions naturally in:
+- English
+- Kannada
+
+Powered by:
+- Llama 3.3 70B Versatile
+- GROQ API
+
+---
+
+## 🏥 Hospital Finder
+- Karnataka hospitals list
+- One-tap call support
+- Google Maps integration
+- Nearby hospital access
+
+---
+
+## 🔍 Search Functionality
+Search emergency topics instantly using keywords in:
+- English
+- Kannada
+
+---
+
+## 📦 Offline-First Architecture
+- Uses Room Database
+- Pre-seeded local JSON data
+- Works without internet
+
+---
+
+## 🌙 Dark Mode Support
+
+---
+
+## 💉 DOs and DON'Ts
+Every emergency includes:
+- Safety precautions
+- Important warnings
+- Emergency response instructions
+
+---
+
+# 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Language | Kotlin |
+| UI | Jetpack Compose + Material 3 |
+| Navigation | Compose Navigation |
+| Database | Room (SQLite) |
+| Dependency Injection | Hilt |
+| AI | GROQ API (Llama 3.3 70B Versatile) |
+| Preferences | DataStore |
+| Build System | Gradle with Version Catalog |
+
+---
+
+# ⚙️ Setup Instructions
+
+## 1️⃣ Open in Android Studio
+
+```bash
+File → Open → Select the PrathamChikitse folder
+```
+
+---
+
+## 2️⃣ Add Your GROQ API Key
+
+Get a free API key from:
+
+https://console.groq.com
+
+Open `local.properties` and add:
+
+```properties
+GROQ_API_KEY=gsk_your_actual_key_here
+```
+
+> ⚠️ The app works fully offline without the API key.  
+> Only the AI Assistant requires internet access.
+
+---
+
+## 3️⃣ Set Android SDK Path
+
+Android Studio usually auto-generates this automatically.
+
+Example:
+
+```properties
+sdk.dir=/Users/your-name/Library/Android/sdk
+```
+
+---
+
+## 4️⃣ Sync & Run
+
+- Click **Sync Now**
+- Run on:
+  - Android Emulator (API 21+)
+  - Physical Android Device
+
+---
+
+# 📂 Project Structure
+
+```bash
+app/src/main/java/com/pratham/chikitse/
+├── data/
+│   ├── dao/          # Room DAOs
+│   ├── database/     # AppDatabase
+│   ├── model/        # Emergency & Hospital entities
+│   └── repository/   # Repositories
+├── di/               # Hilt Dependency Injection
+├── ui/
+│   ├── ai/           # GROQ AI assistant screen
+│   ├── emergency/    # Emergency detail screens
+│   ├── home/         # Home dashboard
+│   ├── hospital/     # Hospital finder
+│   ├── search/       # Search functionality
+│   ├── settings/     # Language & dark mode settings
+│   └── theme/        # Material 3 theming
+└── util/
+    ├── GroqHelper.kt
+    └── PreferencesHelper.kt
+
+app/src/main/assets/
+├── emergencies.json
+└── hospitals.json
+```
+
+---
+
+# 🚨 Emergency Helpline Numbers
+
+| Service | Number |
+|---|---|
+| Ambulance | **108** |
+| Police | 100 |
+| Fire | 101 |
+| Women Help | 1091 |
+
+---
+
+# 🤖 Note on AI
+
+The AI assistant uses:
+- Llama 3.3 70B Versatile
+- GROQ API
+
+If `GROQ_API_KEY` is missing:
+- The AI Assistant shows a helpful message
+- All other app features continue working completely offline
+
+---
+
+# 🎯 Project Goal
+
+Pratham Chikitse aims to:
+- Improve emergency awareness
+- Provide accessible first-aid guidance
+- Support rural healthcare accessibility
+- Deliver multilingual emergency assistance
+- Enable quick emergency response support
+
+---
+
+# 🚀 Future Improvements
+
+- Voice-based emergency assistant
+- SOS emergency contact alerts
+- Offline Kannada voice narration
+- Nearby pharmacy support
+- Live ambulance tracking
+- AI symptom analysis
+- Emergency location sharing
+
+---
+
+# 👩‍💻 Developed With
+
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Room Database
+- Hilt
+- GROQ AI
+- Android Studio
+
+Built to improve emergency awareness and accessibility in rural communities.
 
 ---
 
@@ -20,7 +254,7 @@ Emergency categories with quick access to first-aid guidance.
 Step-by-step emergency instructions with DOs & DON'Ts.
 
 <p align="center">
-  <img src="./screenshots/emergency_detail.png" width="280" alt="Emergency Detail"/>
+  <img src="./screenshots/emergency_detail.png" width="280" alt="Emergency Detail Screen"/>
 </p>
 
 ---
@@ -52,129 +286,6 @@ Open hospitals directly in Google Maps for navigation.
 
 ---
 
-# ✨ Features
+# ⭐ Support
 
-- 🚨 **20 Emergency Cards**  
-  Step-by-step first-aid guidance for:
-  - Snake bite
-  - Choking
-  - Cardiac arrest
-  - Burns
-  - Fractures
-  - Asthma attack
-  - Allergic reactions
-  - And more
-
-- 🇮🇳 **Bilingual Support**
-  - English
-  - Kannada
-  - Live language toggle
-
-- 🤖 **GROQ AI Assistant**
-  - Ask first-aid questions naturally
-  - Supports English & Kannada
-
-- 🏥 **Hospital Finder**
-  - Karnataka hospitals list
-  - One-tap call support
-  - Google Maps integration
-
-- 🔍 **Search Functionality**
-  - Search emergencies instantly
-  - Works in both languages
-
-- 📦 **Offline-First Architecture**
-  - Uses Room Database
-  - Pre-seeded bundled JSON data
-
-- 🌙 **Dark Mode Support**
-
-- 💉 **DOs and DON'Ts**
-  - Every emergency includes safety precautions
-
----
-
-# 🛠️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Language | Kotlin |
-| UI | Jetpack Compose + Material 3 |
-| Navigation | Compose Navigation |
-| Database | Room (SQLite) |
-| Dependency Injection | Hilt |
-| AI | Groq (llama 3.3) |
-| Preferences | DataStore |
-| Build System | Gradle with Version Catalog |
-
----
-
-# ⚙️ Setup Instructions
-
-## 1️⃣ Open in Android Studio
-File → Open → Select the `PrathamChikitse` folder.
-
-## 2️⃣ Add Your Gemini API Key
-
-Get a **free** API key from https://console.groq.com
-
-Open `local.properties` and replace the placeholder:
-```
-GROQ_API_KEY=AIza...your-actual-key...
-```
-
-> ⚠️ The app works fully offline without the key — only the AI chat tab requires it.
-
-## 3️⃣ Set SDK Path in local.properties
-Android Studio auto-fills this. If not:
-```
-sdk.dir=/Users/your-name/Library/Android/sdk
-```
-
-## 4️⃣ Sync & Run
-- Click **Sync Now** in Android Studio
-- Run on an emulator (API 21+) or physical device
-
----
-
-## App Structure
-
-```
-app/src/main/java/com/pratham/chikitse/
-├── data/
-│   ├── dao/          # Room DAOs (EmergencyDao, HospitalDao)
-│   ├── database/     # AppDatabase
-│   ├── model/        # Emergency, Hospital entities
-│   └── repository/   # EmergencyRepository, HospitalRepository
-├── di/               # Hilt AppModule
-├── ui/
-│   ├── ai/           # Gemini AI chat screen
-│   ├── emergency/    # Detail screen for each emergency
-│   ├── home/         # Home grid screen
-│   ├── hospital/     # Hospital list with call/map
-│   ├── search/       # Full-text search
-│   ├── settings/     # Language & dark mode toggle
-│   └── theme/        # Material 3 color scheme
-└── util/
-    ├── GeminiHelper.kt
-    └── PreferencesHelper.kt
-app/src/main/assets/
-├── emergencies.json  # 20 emergencies (EN + KN)
-└── hospitals.json    # 20 Karnataka hospitals
-```
-
----
-
-## Emergency Call Numbers
-
-| Service     | Number |
-|-------------|--------|
-| Ambulance   | **108** |
-| Police      | 100 |
-| Fire        | 101 |
-| Women Help  | 1091 |
-
----
-
-## Note on AI
-The AI assistant uses `Llama 3.3` model. If `GROQ_API_KEY` is not set, it shows a helpful error message. The rest of the app functions completely offline.
+If you found this project useful, consider giving it a ⭐ on GitHub to support the project.
