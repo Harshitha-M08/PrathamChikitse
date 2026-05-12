@@ -26,7 +26,7 @@ Step-by-step emergency instructions with DOs & DON'Ts.
 ---
 
 ## 🤖 AI First Aid Assistant
-Ask first-aid questions in English or Kannada using Gemini AI.
+Ask first-aid questions in English or Kannada using GROQ AI.
 
 <p align="center">
   <img src="./screenshots/ai_assistant.png" width="280" alt="AI Assistant"/>
@@ -70,7 +70,7 @@ Open hospitals directly in Google Maps for navigation.
   - Kannada
   - Live language toggle
 
-- 🤖 **Gemini AI Assistant**
+- 🤖 **GROQ AI Assistant**
   - Ask first-aid questions naturally
   - Supports English & Kannada
 
@@ -103,7 +103,7 @@ Open hospitals directly in Google Maps for navigation.
 | Navigation | Compose Navigation |
 | Database | Room (SQLite) |
 | Dependency Injection | Hilt |
-| AI | Google Generative AI (Gemini 1.5 Flash) |
+| AI | Groq (llama 3.3) |
 | Preferences | DataStore |
 | Build System | Gradle with Version Catalog |
 
@@ -116,11 +116,11 @@ File → Open → Select the `PrathamChikitse` folder.
 
 ## 2️⃣ Add Your Gemini API Key
 
-Get a **free** API key from https://aistudio.google.com
+Get a **free** API key from https://console.groq.com
 
 Open `local.properties` and replace the placeholder:
 ```
-GEMINI_API_KEY=AIza...your-actual-key...
+GROQ_API_KEY=AIza...your-actual-key...
 ```
 
 > ⚠️ The app works fully offline without the key — only the AI chat tab requires it.
@@ -177,4 +177,4 @@ app/src/main/assets/
 ---
 
 ## Note on AI
-The AI assistant uses `gemini-1.5-flash` model. If `GEMINI_API_KEY` is not set, it shows a helpful error message. The rest of the app functions completely offline.
+The AI assistant uses `Llama 3.3` model. If `GROQ_API_KEY` is not set, it shows a helpful error message. The rest of the app functions completely offline.
