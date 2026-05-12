@@ -1,0 +1,22 @@
+[
+  {"id":1,"name":"Bangalore Medical College & Research Institute","address":"Fort, Bangalore - 560002","phone":"080-22867800","latitude":12.9716,"longitude":77.5946,"districtKn":"ಬೆಂಗಳೂರು","type":"Government"},
+  {"id":2,"name":"Kidwai Memorial Institute of Oncology","address":"Dr M H Marigowda Rd, Bangalore - 560029","phone":"080-26094000","latitude":12.9353,"longitude":77.5973,"districtKn":"ಬೆಂಗಳೂರು","type":"Government"},
+  {"id":3,"name":"Victoria Hospital","address":"Kalasipalya, Bangalore - 560002","phone":"080-22867815","latitude":12.9634,"longitude":77.5855,"districtKn":"ಬೆಂಗಳೂರು","type":"Government"},
+  {"id":4,"name":"Bowring & Lady Curzon Hospital","address":"Shivajinagar, Bangalore - 560001","phone":"080-25590177","latitude":12.9832,"longitude":77.6019,"districtKn":"ಬೆಂಗಳೂರು","type":"Government"},
+  {"id":5,"name":"Manipal Hospital Bangalore","address":"98, HAL Airport Rd, Bangalore - 560017","phone":"080-25024444","latitude":12.9591,"longitude":77.6477,"districtKn":"ಬೆಂಗಳೂರು","type":"Private"},
+  {"id":6,"name":"Apollo Hospitals Bangalore","address":"154/11, Bannerghatta Rd, Bangalore - 560076","phone":"080-26304050","latitude":12.8974,"longitude":77.5973,"districtKn":"ಬೆಂಗಳೂರು","type":"Private"},
+  {"id":7,"name":"Mysore Medical College & Research Institute","address":"Irwin Rd, Mysuru - 570001","phone":"0821-2423012","latitude":12.3052,"longitude":76.6551,"districtKn":"ಮೈಸೂರು","type":"Government"},
+  {"id":8,"name":"K.R. Hospital Mysore","address":"Irwin Rd, Mysuru - 570021","phone":"0821-2422139","latitude":12.3093,"longitude":76.6581,"districtKn":"ಮೈಸೂರು","type":"Government"},
+  {"id":9,"name":"Narayana Multispeciality Hospital Mysore","address":"Mysore - Bannur Rd, Mysuru","phone":"0821-6699999","latitude":12.2783,"longitude":76.6551,"districtKn":"ಮೈಸೂರು","type":"Private"},
+  {"id":10,"name":"Hubli District Hospital","address":"KIMS Campus, Vidyanagar, Hubballi - 580021","phone":"0836-2371103","latitude":15.3647,"longitude":75.1240,"districtKn":"ಧಾರವಾಡ","type":"Government"},
+  {"id":11,"name":"KIMS Hospital Hubballi","address":"KIMS Campus, Vidyanagar, Hubballi - 580022","phone":"0836-2377777","latitude":15.3621,"longitude":75.1198,"districtKn":"ಧಾರವಾಡ","type":"Private"},
+  {"id":12,"name":"District Hospital Mangalore","address":"Lalbagh, Mangaluru - 575003","phone":"0824-2423773","latitude":12.8698,"longitude":74.8422,"districtKn":"ದಕ್ಷಿಣ ಕನ್ನಡ","type":"Government"},
+  {"id":13,"name":"Kasturba Medical College Manipal","address":"Madhav Nagar, Manipal - 576104","phone":"0820-2922000","latitude":13.3513,"longitude":74.7917,"districtKn":"ಉಡುಪಿ","type":"Private"},
+  {"id":14,"name":"District Hospital Belgaum","address":"Nehru Nagar, Belagavi - 590010","phone":"0831-2424555","latitude":15.8497,"longitude":74.4977,"districtKn":"ಬೆಳಗಾವಿ","type":"Government"},
+  {"id":15,"name":"District Hospital Gulbarga","address":"Station Rd, Kalaburagi - 585101","phone":"08472-224466","latitude":17.3297,"longitude":76.8343,"districtKn":"ಕಲಬುರಗಿ","type":"Government"},
+  {"id":16,"name":"District Hospital Shimoga","address":"Vinoba Nagar, Shivamogga - 577201","phone":"08182-222271","latitude":13.9299,"longitude":75.5681,"districtKn":"ಶಿವಮೊಗ್ಗ","type":"Government"},
+  {"id":17,"name":"District Hospital Davangere","address":"SSP Circle, Davangere - 577001","phone":"08192-231234","latitude":14.4644,"longitude":75.9218,"districtKn":"ದಾವಣಗೆರೆ","type":"Government"},
+  {"id":18,"name":"District Hospital Tumkur","address":"B.H. Road, Tumakuru - 572101","phone":"0816-2272028","latitude":13.3379,"longitude":77.1013,"districtKn":"ತುಮಕೂರು","type":"Government"},
+  {"id":19,"name":"PHC Anekal","address":"Anekal Town, Bangalore Rural","phone":"08030-273060","latitude":12.7105,"longitude":77.6966,"districtKn":"ಬೆಂಗಳೂರು ಗ್ರಾಮಾಂತರ","type":"PHC"},
+  {"id":20,"name":"Community Health Centre Ramanagara","address":"MG Road, Ramanagara - 562159","phone":"08132-223188","latitude":12.7157,"longitude":77.2839,"districtKn":"ರಾಮನಗರ","type":"Government"}
+]

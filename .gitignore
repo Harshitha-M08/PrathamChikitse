@@ -1,0 +1,58 @@
+# Gradle
+/build/
+/.gradle/
+**/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android Studio
+.gradle/
+/.idea/
+captures/
+output.json
+
+# Keystore files
+*.jks
+
+# Gradle wrapper
+/.gradle
+gradle-app.setting
+
+# Kotlin specific
+*.kotlin_module
+
+# Log/temporary
+*.log
+*.tmp
+
+# Generated files
+/app/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+/.gradle
+/local.properties
+/build
+/captures
+/.externalNativeBuild
+/.cxx
+/app/build
+/*.iml
+/.idea/
+/.DS_Store
+/.vscode/
+/.gradle/
+/.idea/
+/.settings/
+/.project
+/.classpath
+*.log
+android/local.properties

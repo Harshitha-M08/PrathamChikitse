@@ -1,0 +1,4 @@
+-keep class com.pratham.chikitse.data.model.** { *; }
+-keep class com.google.gson.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
